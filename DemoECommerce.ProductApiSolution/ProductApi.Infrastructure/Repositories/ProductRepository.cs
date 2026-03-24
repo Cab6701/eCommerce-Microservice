@@ -62,7 +62,7 @@ namespace ProductApi.Infrastructure.Repositories
                 LogException.LogExceptions(ex);
 
                 // Display scary-free message to the client
-                return new Response(false, "Error occurred adding new product");
+                return new Response(false, "Error occurred deleting new product");
             }
         }
 
