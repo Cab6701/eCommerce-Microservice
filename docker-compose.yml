@@ -13,7 +13,7 @@ services:
       - ecommerce-net
 
   product-api:
-    image: cabtaindeptrai/commandservice:latest
+    image: cabtaindeptrai/productservice:latest
     container_name: product-api
     depends_on:
       - sqlserver
